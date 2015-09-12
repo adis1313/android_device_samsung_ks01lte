@@ -184,5 +184,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    OmniSwitch
 
+# Terminal
+PRODUCT_PACKAGES += \
+   Terminal
+
 # Common msm8974
 $(call inherit-product, device/samsung/msm8974-common/msm8974.mk)

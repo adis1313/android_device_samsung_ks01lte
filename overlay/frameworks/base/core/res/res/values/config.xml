@@ -316,4 +316,7 @@
     <integer name="config_screenBrightnessDoze">5</integer>
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Package name providing WebView implementation. -->
+    <string name="config_webViewPackageName" translatable="false">com.google.android.webview</string>
 </resources>

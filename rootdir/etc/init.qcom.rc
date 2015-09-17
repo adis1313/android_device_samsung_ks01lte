@@ -111,6 +111,7 @@ on boot
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu2/online 1
     write /sys/devices/system/cpu/cpu3/online 1
+    write /sys/module/cpu_boost/parameters/input_boost_freq 0
     write /sys/module/msm_thermal/core_control/enabled 1
 
     # permissions for bluetooth.
